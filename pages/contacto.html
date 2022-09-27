@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pre-entrega</title>
+    <link rel="shortcut icon" href="./assets/imagen/favicon.png"  type="image/x-icon">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <header class="container">
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="./nuevo.html">Nuevo</a></li>
+                    <li><a href="./proyectos.html">Portfolio</a></li>
+                    <li><a href="./sobremi.html">Sobre Mi</a></li>
+                    <li><a href="./contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+    </header>
+    <form>
+        <fieldset>
+            <legend>Ingrese los datos de contacto</legend>
+            <div>
+                <label for="nombre">Ingrese su nombre</label>
+                <input type="text" id="nombre" placeholder="ej: Daniela">
+            </div>
+            <div>
+                <label for="Email">Ingrese su Email</label>
+                <input type="text" id="Email" placeholder="ej: daniela@hotmail.com" required>
+            </div>
+            <div>
+                <label for="Edad">Ingrese su Fecha de nacimiento</label>
+                <input type="date" id="Edad" placeholder="Ingrese su fecha de nacimiento">
+            </div>
+            <br>
+            <div>
+                <p>Deja un comentario:</p>
+                <textarea name="" id="comentario" cols="30" rows="10"></textarea>
+                <br>
+                <input id="enviar" type="submit" value="Enviar">
+                <input id="reset" type="reset" value="Borrar">
+            </div>
+        </fieldset>
+        </form>
+        <footer class="container footer">
+            <h3>Ubicación:<span>Buenos Aires, Argentina</span></h2>
+            <div>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i> 
+                <img class="imagenfooter" src="./assets/imagen/ilustracion2.svg" alt="en celular mostrando que llego un mensaje">
+            </div> 
+        </footer> 
+</body>
+</html>
