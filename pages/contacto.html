@@ -13,45 +13,67 @@
             <nav>
                 <ul>
                     <li><a href="../index.html">Inicio</a></li>
-                    <li><a href="./nuevo.html">Nuevo</a></li>
-                    <li><a href="./proyectos.html">Portfolio</a></li>
-                    <li><a href="./sobremi.html">Sobre Mi</a></li>
+                    <li><a href="./menu.html">Menú</a></li>
+                    <li><a href="./promociones.html">Promociones</a></li>
+                    <li><a href="./galeria.html">Galería</a></li>
                     <li><a href="./contacto.html">Contacto</a></li>
                 </ul>
             </nav>
     </header>
     <form>
-        <fieldset>
-            <legend>Ingrese los datos de contacto</legend>
-            <div>
-                <label for="nombre">Ingrese su nombre</label>
-                <input type="text" id="nombre" placeholder="ej: Daniela">
-            </div>
-            <div>
-                <label for="Email">Ingrese su Email</label>
-                <input type="text" id="Email" placeholder="ej: daniela@hotmail.com" required>
-            </div>
-            <div>
-                <label for="Edad">Ingrese su Fecha de nacimiento</label>
-                <input type="date" id="Edad" placeholder="Ingrese su fecha de nacimiento">
-            </div>
-            <br>
-            <div>
-                <p>Deja un comentario:</p>
-                <textarea name="" id="comentario" cols="30" rows="10"></textarea>
+        <div class="menu"></div>
+            <h2 class="menu ">
+                <strong>接触</strong>
                 <br>
-                <input id="enviar" type="submit" value="Enviar">
-                <input id="reset" type="reset" value="Borrar">
+                <br>
+                CONTACTO
+            </h2>
+        </div>
+        <div class="content">
+            <h2 class="logo">Contacto </h2>
+            <div class="contact-wrapper animated bounceInUp">
+                <div class="contact-form">
+                    <h3>Contactanos</h3>
+                    <form action="">
+                        <p>
+                            <label>Nombre completo</label>
+                            <input type="text" name="fullname">
+                        </p>
+                        <p>
+                            <label>Correo electronico</label>
+                            <input type="email" name="email">
+                        </p>
+                        <p>
+                            <label>telefono</label>
+                            <input type="tel" name="phone">
+                        </p>
+                        <p class="block">
+                           <label>Asunto</label> 
+                            <textarea name="message" rows="3"></textarea>
+                        </p>
+                        <p class="block">
+                            <button>
+                                Send
+                            </button>
+                        </p>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <h4>Mas información</h4>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> Baker Street</li>
+                        <li><i class="fas fa-phone"></i> (111) 111 111 111</li>
+                        <li><i class="fas fa-envelope-open-text"></i> contact@website.com</li>
+                    </ul>
+                    <p>Lunes a domingo de 12:30 PM a 10:00 PM</p>
+                    <p>El servicio a domicio se cierra 30 min antes.</p>
+                    <p>Company.com</p>
+                </div>
             </div>
-        </fieldset>
-        </form>
-        <footer class="container footer">
+        </div>
+
+        <footer class="footer">
             <h3>Ubicación:<span>Buenos Aires, Argentina</span></h2>
-            <div>
-                <i class="fa-brands fa-instagram"></i>
-                <i class="fa-brands fa-linkedin"></i> 
-                <img class="imagenfooter" src="./assets/imagen/ilustracion2.svg" alt="en celular mostrando que llego un mensaje">
-            </div> 
         </footer> 
 </body>
 </html>
