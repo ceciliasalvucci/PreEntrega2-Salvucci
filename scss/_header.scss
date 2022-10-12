@@ -1,0 +1,22 @@
+header {
+    background-color: #000;
+    nav {
+        text-align: center;
+        ul {
+            li {
+                display: inline-block;
+                margin: 5px;
+                padding: 5px;
+                a {
+                    text-decoration: none;
+                    font-weight: bold;
+                    font-size: 1.2rem;
+                    color: rgb(255, 255, 255);
+                    &:hover {
+                        color: rgb(135, 135, 135);
+                    }
+                }
+            }
+        }
+    }
+}
